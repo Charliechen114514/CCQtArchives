@@ -14,3 +14,7 @@
 - portable_modules：这是为了构建可复用的模块，每一个模块笔者都会更新尽可能详细的文档和说明
 - simple_application：一些简单的可以使用的应用，这些就是放置着演示一部分功能的子模块
 - analysis：这里放置着一部分开源代码的分析
+
+![License](https://img.shields.io/badge/TODOS-My_Plan-green)
+
+- 添加对CCMovableWidget涉及到的Qt的编程内容的讲解
