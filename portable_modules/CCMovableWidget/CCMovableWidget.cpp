@@ -1,3 +1,4 @@
+#include <QDebug>
 #include <QMouseEvent>
 #include "CCMovableWidget.h"
 

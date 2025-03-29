@@ -16,14 +16,14 @@ set(PROJECT_SOURCES
         main.cpp
         MainWindow.cpp
         MainWindow.h
+        CCMovableWidget.cpp
+        CCMovableWidget.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(CCMovableWidget
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        CCMovableWidget.h CCMovableWidget.cpp
-
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET CCMovableWidget APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

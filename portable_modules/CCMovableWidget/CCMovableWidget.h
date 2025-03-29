@@ -1,6 +1,7 @@
 #ifndef CCMOVABLEWIDGET_H
 #define CCMOVABLEWIDGET_H
 
+#include <QSet>
 #include <QWidget>
 class CCMovableWidget : public QWidget {
     Q_OBJECT
